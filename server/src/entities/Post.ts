@@ -1,5 +1,5 @@
-import { Exclude } from "class-transformer/types/decorators";
-import { Expose } from "class-transformer/types/decorators/expose.decorator";
+import { Exclude } from "class-transformer";
+import { Expose } from "class-transformer";
 import {
   BeforeInsert,
   Column,
@@ -12,7 +12,7 @@ import {
 import { makeId, slugify } from "../utils/helper";
 import BaseEntity from "./Entity";
 import Sub from "./Sub";
-import { User } from "./User";
+import User from "./User"
 import Vote from "./Vote";
 import Comment from "./Comment";
 

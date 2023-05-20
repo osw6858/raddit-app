@@ -11,7 +11,7 @@ import {
 import { makeId } from "../utils/helper";
 import BaseEntity from "./Entity";
 import Post from "./Post";
-import { User } from "./User";
+import User  from "./User";
 import Vote from "./Vote";
 
 @Entity("comments")
