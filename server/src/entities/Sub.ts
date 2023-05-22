@@ -22,7 +22,7 @@ export default class Sub extends BaseEntity {
   title: string;
 
   @Column({ type: "text", nullable: true })
-  discription: string;
+  description: string;
 
   @Column({ nullable: true })
   imageUrn: string;
